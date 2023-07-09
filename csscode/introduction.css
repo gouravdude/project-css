@@ -1,0 +1,84 @@
+step1 what is css ?
+  a, css -> cascading style sheets 
+  b, css describe how html elements and media , etc 
+  c, type of css 
+  1,  inline css
+  2, internal css 
+  3, external css
+
+  step 2, css syntax 
+  css always write in (curly brases {} always in key or pair )
+  step 3, css selector 
+
+    1. simple selector ( select elements based on name ,id)
+    
+    
+    a, css element (tag)selector
+    b, css id selector (id given by # and only one time we write  )
+    c, css class selector (class given by . and many we write it  )
+    d, css universal selector > basilcaly use fro fontfamily,or font size 
+    e, css group selector 
+
+    not wprking thats why dont need that
+    {2 cobinator selector ( select element based on aspecific )
+    3 based on a creation pseudo-class selectorn ( select eleement )
+    4 pseudo-element selector ( select and style a part of an element )
+    5 attributes selector (select element based on an attributes )
+    }
+
+  4 step colour 
+     a, backgrond_colour(image ) 
+     backdround-repeat no reapet, epeat-x,repeat-y
+     background-attachment fixed scroll  background will fixed or scroll
+     background-postion 1000px 20 px, its work on x y axix   
+     background-size auto , contain cover 
+     background-image (url) 
+     background-image: linear-gradient(to bottom,rgba(20, 53, 220, 0.416),rgb(0, 225, 255));
+     b, text colour
+     c, border colour 
+
+
+  step 5 sizing
+       a. height 
+       b, width 
+       c, margin 
+       d, padding 
+
+ step 6 position 
+       a. static  both are same always like fisrst
+       b. relative both are same always like fisrst
+       c. fixed 
+       d. absolute 
+       e. sticky * most importrant
+
+ step 7 element alignment
+       a. float-right both are same always like fisrst in same line 
+       b,float-left   both are same always like fisrst in same line 
+       c, align-item   here line having space text in second line
+       d, text-align  here to text alignmnt 
+       
+step 8 text font  
+       a. font-size medim,small, 60px 10% 2em 10vmax 10vmin 2em 3rem 10vw vh
+       b. font-family
+       c. font-style -itallic and etc 
+       d.  font-weight -100 to 900
+       e    text-alin  right left centre  justy  to fill himself 100% space text
+       f.    text-decoration none line through line over under line
+       g. text-indent - its space of first line in sentence like 25% 50%
+       h.  line-hight  - 50px  gap hight betewwn line 
+      i, text-spaceing   -20 px gap between the text
+       j, word-spaceing 2opx gap between word 
+       k. text-shadow   shadow in x y z black space in -x -z -y red  this axixs  left pr roght shadow bottom
+    
+
+ step 9 box model, display  
+       a. understanding the box 
+       b. display property
+
+ step 10 outline
+       a. border (top right bottom left ) and also (top-bottom0 or (right-left)
+       b. box-sizing ->>  border-box
+       c.  border-top ,left, right, bottom
+       d. over-flow scroll, hidden, auto here all the spce in box hidden or scroll
+
+        

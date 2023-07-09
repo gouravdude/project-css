@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+.box{
+    background-color: rgb(216, 133, 7);
+    height: 50px;
+    width: 50px;
+    font: bold 2rem cursive;
+    color: white;
+    margin: 2vh;
+    transition-property: background-color;
+    transition-duration:  0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s ;
+
+}
+
+ #box1:hover{
+   background-color: blueviolet;
+   color: blue;
+}

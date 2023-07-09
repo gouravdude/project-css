@@ -1,0 +1,28 @@
+.static{
+    position: absolute;
+    position: static;
+}
+/* h1{
+    position: relative !important; //this prerioty is increase 
+} */
+.fixed{
+    position: fixed !important;
+    margin: 400px;
+}
+.btn{
+    color: aqua;
+    background-color: green;
+    padding: 5px;
+    border-radius: 10%;
+}
+.absolute{
+    position: absolute;
+    margin-top: 500px;
+    border: 5    px solid red ;
+    padding: 5px;
+}
+.sticky{
+    position: sticky;
+    top :0;
+     
+}  

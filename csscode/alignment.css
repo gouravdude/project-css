@@ -1,0 +1,22 @@
+.float-right{
+float: right;
+}
+.float-left{
+    float: left;
+}
+.mt-5{
+    margin-top: 200px;
+}
+img{
+    height: 200px;
+    margin: 10px;
+}
+.align-centre{
+ text-align: center;   
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}

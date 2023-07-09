@@ -1,0 +1,252 @@
+body{
+  
+    margin: 0;
+}
+*{
+   scroll-behavior: smooth ;
+}
+nav{
+    /* border: 2px solid salmon; */
+      height: 4vmax;
+    display: flex;
+    box-shadow: 0 0 10px black; 
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+    z-index: 10000;
+}
+.left{
+    /* border: 2px solid salmon; */
+   width: 20%;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+  
+}
+.left>a{   
+    text-decoration: none;
+    color: cornflowerblue;
+/* border: 1px solid yellowgreen; */
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mid{
+    /* border: 2px solid rgb(165, 227, 8); */
+    width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-self: stretch; */  
+
+}
+.mid>a{
+   
+    text-decoration: none;
+    color: black;
+    /* border-bottom: 1px solid rgb(235, 71, 6); */
+    width: 100%;
+    display: flex;
+    font-size: 1.4vmax;
+    justify-content: center;
+    align-items: center;
+
+}
+.mid :hover{
+   border-bottom: 2px solid crimson;
+   color:crimson  ;
+
+}
+.right{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+.right > img{
+
+    width: 2.5vmax;
+}
+.home{
+    /* border: 1px solid red; */
+    height: 90vh;
+    background-image: linear-gradient(to right,rgb(236, 210, 247), rgb(160, 199, 228));
+    display: flex;
+    
+}
+.container{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+#rightcontainer {
+    display: flex;
+    justify-content: flex-end;
+}
+#rightcontainer>img{
+    margin-right: 14vmax;
+    filter: drop-shadow(0 0 20px black);
+}
+#leftcontainer {
+    display: flex;
+   flex-direction: column;
+   padding: 5vmax;
+   box-sizing: border-box;
+   /* border: 1px solid red; */
+
+}
+#leftcontainer> h1{
+    font-size: 5vmax ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border: 1px solid red; */
+}
+#leftcontainer> h2{
+    font-size: 2vmax ;
+    margin-top: -11%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border: 1px solid red; */
+}
+#leftcontainer> h4{
+    margin-left: 3%;
+    font-size: 1,2vmax ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 1px solid red; */
+}
+#leftcontainer> button{
+    width: 11vmax;
+    padding: 1vmax;   
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    margin-left: 3%;
+    color: whitesmoke;
+    background-color: coral;
+}
+#leftcontainer> button:hover{
+    background-color: chocolate;
+    color: black;
+}
+
+/* ------------------------------------------------------- */
+
+/* #products{
+    height: 100vh; 
+    border: 1px solid red;
+
+} */
+#products> h1{
+    text-align: center;
+    padding: 1vmax;
+    margin: 5vmax auto;
+    font-size: 2.5vmax;
+    border-bottom:  5px solid crimson;
+    width: 25vw;
+    
+}
+.productscontainer{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    height: 100%;
+    max-width: 80vw;
+    margin: auto;
+
+}
+.product{
+    /* border: 2px solid rgb(208, 196, 171); */
+
+ transition: all 0.3s;
+    height: 30vmax;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+    margin: 1vmax;
+    justify-content: center;
+}
+
+.product> img{
+    width: 20vmax;
+    
+}
+.product>h4{
+    margin: 2%;
+}
+
+.product>h5{
+    margin: 0%;
+}
+.product :hover{
+    transform: translateY(-10px);
+
+}
+
+/* ------------------------------------------------- */
+footer{
+   
+    margin-top: 10vmax;
+    background-color: black;
+    padding: 2vmax;
+    color: white;
+    display: flex;
+
+}
+.leftfooter {
+    width: 20%;
+   
+    /* border:  2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leftfooter >p {
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.leftfooter >img {
+ width: 10vmax;
+ margin: 1vmax;
+ cursor: pointer;
+ }
+
+.midfooter{
+    width: 60%;
+  
+    text-align: center;
+    /* border:  2px solid white; */
+
+}
+.midfooter>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vmax;
+    color: rgb(20, 220, 173);
+}
+.midfooter>p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+}
+
+.rightfooter{
+   
+    width: 20%;
+    /* border:  2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+.rightfooter >h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2vmax;
+    text-decoration: underline;
+
+}
+.rightfooter >a{
+    color: white;
+    text-decoration: none;
+    margin: 0.5vmax;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2vmax;
+
+    
+}

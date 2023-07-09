@@ -1,0 +1,27 @@
+/* p{
+border: 1px solid red;
+} */
+.border{
+    border: 1px solid red;
+}
+.dot{
+    border-color: blue;
+    border-style: dotted;
+}
+.dashed{
+    border-color: gray;
+    border-style: dashed;
+}
+.grove{
+    border-color: green;
+    border-style: groove;
+}
+.solid{
+    border-color: blue;
+    border-style: solid;
+}
+.double{
+    border-color: blue;
+    border-width: 5px;
+    border-style: double;
+}

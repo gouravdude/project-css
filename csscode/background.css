@@ -1,0 +1,25 @@
+audio{
+    background-color: red;
+}
+/*
+body{
+    background-color: aqua;
+}
+body{
+    background: url(../image/1.2img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.bgimage{
+    background-image: url(../image/1.2img.jpg);
+    background-size: cover;
+}
+.bgimage::before{
+    background-color: rgba(255, 0, 0, 0.252);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+
+}

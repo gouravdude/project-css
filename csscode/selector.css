@@ -1,0 +1,28 @@
+p{
+    color: brown;
+}
+h1{
+    color: red;
+}
+
+#paragraph{
+    color: blue;
+}
+.paragraph{
+    color: red;
+  
+}
+.background{ /*class selector*/
+    background-color: grey ;
+}
+#back{ /*id selector*/
+    background-color: green;
+}
+*{ /*universal selector*/
+    font-size: 20px
+    font-family sans-serif;
+}
+
+h1, .group{ /*group selector*/    
+    background-color: greenyellow;
+}

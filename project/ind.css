@@ -1,0 +1,123 @@
+body {
+    background-image: url(./img/bg.webp);
+    background-position:  -100px 1px ;
+    height: 110vh;
+    /* background-size: contain; */
+}
+
+header {
+    /* border: 2px solid rgb(235, 102, 102); */
+    margin: -8px;
+    padding: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: sticky;
+    top: 0;
+}
+
+.logobox {
+
+    /* border: 2px solid rgb(13, 201, 215); */
+    display: inline-block;
+    width: 120px;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+    
+}
+
+.logobox:hover {
+    background-color: rgb(4, 187, 233);
+    color: white;
+}
+
+
+.navbox {
+    /* border: 2px solid rgb(215, 13, 13); */
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    width: 520px;
+}
+
+.navbox>a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.navbox>a:hover {
+    color: coral;
+}
+
+#homes {
+    color: coral;
+}
+
+.heading {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: salmon;
+    position: relative;
+    /* border: 2px solid rgb(214, 203, 203); */
+    top: 70px;
+    left: 30px;
+    width: 500px;
+}
+
+.heading+h3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: burlywood;
+    position: relative;
+    /* border: 2px solid rgb(229, 208, 208); */
+    top: 30px;
+    width: 200px;
+    left: 50px;
+}
+
+/* .heading+h3+p{
+    color: aqua;
+} */
+.color {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    font-style: italic;
+    /* border: 2px solid rgb(214, 203, 203); */
+    word-spacing: 4px;
+    left: 20px;
+    width: 400px;
+    top: 20px;
+}
+
+.btn {
+    width: 100px;
+    padding: 15px;
+    border: none;
+    background-color: salmon;
+    border: 1px solid salmon;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left:60px;
+    top: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    float: right;
+    color: white;
+    bottom: 0;
+    position: fixed;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=ul, initial-scale=1.0">
+    <title>form tag</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+<body>
+        <!--GAURAV  kumar -->
+ 
+
+        <form action="app.js" method="post">
+
+            <h1>CONTACT US </h1>
+
+            <div> <label for="name">NAME : </label> <input required placeholder="NAME" type="text" name="name"
+                    id="name"></div><br>
+            <div> <label for="email">EMAIL : </label> <input required placeholder="EMAIL" type="email" name="email"
+                    id="email"></div><br>
+            <div> MESSAGE: <textarea required placeholder="message" name="textmessage" id="message" cols="30"
+                    rows="10"></textarea></div><br>
+            <div> NUMBER : <input required placeholder="Number" type="number" name="number" id="number"></div><br>
+            <div> GENDER: <select name="gender" id="Gender">
+                    <option value="">Chose one</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="transgender">Transgender</option>
+                </select>
+            </div><br>
+            <div> <input type="file" name="important" id=""></div><br>
+            <div class="borders">FRONTEND : <input type="checkbox" name="skill" id="frontend">
+                BACKEND : <input type="checkbox" name="skill" id="backend">
+            </div><br>
+            <fieldset>
+                <legend>Mode of payment</legend>
+                Cash:<input type="radio" name="payment" id="cash">
+                Online: <input type="radio" name="payment" id="online">
+                Upi: <input type="radio" name="payment" id="upi">
+                Bank: <input type="radio" name="payment" id="bank">
+            </fieldset><br>
+            <div> <label for="password">PASSWORD : </label><input required placeholder="password" type="password"
+                    name="password" id="password"></div><br>
+            <div><input type="submit" value="submit"></div>
+
+
+
+        </form>
+
+
+
+    </body>
+
+</html>

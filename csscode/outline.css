@@ -1,0 +1,11 @@
+/* p{
+    outline-offset: 0;
+    outline-color: red;
+    outline-width: 10;
+    outline-style: dotted;
+    padding: 10px;
+
+} */
+p{
+    border: 20px red solid;
+}

@@ -1,0 +1,27 @@
+.d-none{
+    display: none;
+}
+/* .d-none{
+    display: block;
+} */
+p{
+    display: inline;
+    text-align: justify;
+}
+.d-flex{
+    display: flex;
+    background-color: rgba(4, 50, 50, 0.552);
+   
+    padding: 10px;
+}
+.d-flex li{
+margin-left: 20px;
+list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.text-right{
+  margin-left: 1000px;
+}

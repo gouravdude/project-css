@@ -1,0 +1,159 @@
+/* h1{
+    color: burlywood ;
+    background-color: coral;
+    border: 2px solid black;
+}
+p{
+    color: violet;
+    background-color: crimson;
+    border: 2px solid black;
+}    */
+
+
+/* *{
+    color: blueviolet;
+    background-color: black;
+} 
+span{
+    color: chartreuse;
+} */
+/* .custom{
+    color: burlywood ;
+    background-color: coral; 
+} 
+#blacked{
+    color: brown;
+    background-color: black;
+}
+p{
+    color: darkgreen;
+} */
+
+/* a[href="google"]{     // this is attribute selctior
+    color: rgba(43, 226, 107, 0.592);
+} */
+
+
+/* span > p{    // this is child combinatior (child selector)
+    color: blue;
+} */
+/*   
+li{    // this is group selector
+    list-style: disc;
+    color: blueviolet ;
+}*/
+/*   
+ this disandent combinatior  
+li div{    
+    color: cadetblue;
+}
+li li{    // this disandent combinatior 
+    color: cadetblue;
+
+}*/
+/* h1+p{  // adjcent sibling selector
+    color: aquamarine;
+}
+ul+li{
+    color: brown;
+} */
+
+/* // general sibling selector  
+h1~p{
+    color: chocolate;
+}*/
+/*p{    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: large;
+font-style: italic; */
+/* font-weight: 900;use to  bold the words */
+
+/* text-align: justify; text-align: justify; here justify fill all the space from left or right the line  
+/* text-transform: capitalize; */
+/* text-decoration: underline; */
+/* text-indent: 10%; gap between first line sentence */
+/* line-height: 10px; gap between the line 
+/* letter-spacing: 1px;
+   word-spacing: 2px; */
+/* text-shadow: 0 0 20px black;
+} */
+/* h1{  
+     text shadow here x y z axis are shadow goes 
+    color:   rgb(0, 255, 42);
+    text-shadow: -10px 10px 9px rgb(18, 7, 7) ;
+    font-size:  16px,5em=500%;1em =16px
+    font-size: 10vmax,vmin; here jo hight ya width m jada hoga uska 10 hojayega font
+    font-size: 5vh vw //it means 5 times of page that  veiw hight or width of this page ;
+}   */
+/* body{
+   background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(../image/1.2img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right,top,bottom,left; 
+ background-position: 25% 75% ; x y axis here postion
+background-position: bottom 50px right 100px ;
+} */
+/* body{
+    background-color: aqua;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size:  16px;
+
+} */
+/* ul{
+   list-style-type: decimal-leading-zero;
+   list-style-position: outside;
+   list-style: square inside url(../image/pexels-lumn-167699.jpg);
+} */
+/* .small{
+    background-color: burlywood;
+    margin: 20px 50px 30px 60px;
+    padding: 20px;
+    border: 12px solid black;
+    width: 300px;
+    height: 200px;
+    overflow:  auto scroll;both are used 
+} */
+/* h1{
+    border: 9px solid black;
+    padding: 10px ;
+    margin: -10px;
+} */
+
+
+
+
+
+div{
+    background-color: brown;
+    width: 60px;
+    height: 100px;
+
+border: 2px solid black;
+}
+
+
+body{
+    display: flex;
+    border: 1px solid green;
+    height: 100vw;
+    width: 80vh;
+
+   /* justify-content: space-evenly; */
+   /* align-items: center; */
+   /* align-content: center; */
+   /* flex-wrap: wrap; */
+   /* flex-direction: column-reverse; */
+  /* flex-flow: column wrap; */
+
+  /* .flex{
+     align-self: center;
+} */
+/* flex-grow: 21;
+ flex-shrink: 25; */
+ }
+ .flex{
+    flex: 5 2 150px;
+}

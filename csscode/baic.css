@@ -1,0 +1,25 @@
+/* h3{
+    display: none;
+*} */
+
+/*{
+    display: none;  this is for display none 
+/*} /  h ere we use  externaal css and itd recomedates byy all programers */
+
+/* preority first is inline css,
+then 2nd internal css ,
+then 3rd is external css */
+
+
+h1{
+    color: blue;
+}
+h3{
+    background-color: red;
+}
+h1{
+background-color: pink;
+}
+h3{
+    background-color: blue;
+}
